@@ -25,7 +25,7 @@ export default function Home() {
                 ListHeaderComponent={() => <Text className="uppercase text-gray-950 text-sm font-subtitle mt-6">Entrada</Text>}
             />
 
-            <FloatButton/>
+            <FloatButton icon="edit" />
         </View>
     )
 }
